@@ -52,7 +52,7 @@ import {
     productsContainer: {
       flex: 1,
       width: Dimensions.get("window").width / 2.5, // Genişliği dinamik olarak ayarla
-      minHeight:100,
+      minHeight: Dimensions.get("window").height / 3.2, // Yükseklik ayarı
       backgroundColor: "rgba(0, 0, 0, 0.03)",
       borderRadius: 8,
       padding: 12,
